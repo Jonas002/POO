@@ -251,3 +251,21 @@ public class Vetor{
 }
 
 //11.Criar um vetor A com 10 elementos inteiros. Implementar um programa que defina e escreva a quantidade de elementos armazenados neste vetor que são pares. 
+public class Vetor{
+    public static void main(String[] args){
+        double[] a = {1,2,3,4,5, 6, 7, 8, 9, 10};
+        int quantidade = 0;
+        for (int i = 0; i < a.length; i++){
+  
+            if(a[i] % 2 == 0){
+                System.out.println("O número " + a[i] + " é par");
+                    quantidade++;
+               
+
+            }
+            
+        }
+        System.out.println(quantidade);
+
+    }
+}
