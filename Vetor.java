@@ -24,7 +24,7 @@ public class Vetor{
 //2. Criar um vetor A com 8 elementos inteiros. Construir um vetor B de mesmo tipo e tamanho e com os elementos do vetor A multiplicados por 2, ou seja: B[i] = A[i] * 2. 
 public class Vetor{
     public static void main(String[] args){
-        int[] a = {1,2,3,4,5};
+        int[] a = {1,2,3,4,5,6,7,8};
         int[] b = new int[a.length];
         for (int i = 0; i < a.length; i++){
             b[i] = a[i] * 2;
@@ -47,7 +47,7 @@ public class Vetor{
 //3. Criar um vetor A com 15 elementos inteiros. Construir um vetor B de mesmo tipo e tamanho, sendo que cada elemento do vetor B deverá ser o quadrado do respectivo elemento de A, ou seja: B[i] = A[i] * A[I]. 
 public class Vetor{
     public static void main(String[] args){
-        int[] a = {1,2,3,4,5};
+        int[] a = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
         int[] b = new int[a.length];
         for (int i = 0; i < a.length; i++){
             b[i] = a[i] * a[i];
@@ -71,7 +71,7 @@ public class Vetor{
 import java.lang.Math;
 public class Vetor{
     public static void main(String[] args){
-        double[] a = {1,2,3,4,5};
+        double[] a = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
         double[] b = new double[a.length];
         for (int i = 0; i < a.length; i++){
             b[i] = Math.sqrt(a[i]);
@@ -95,7 +95,7 @@ public class Vetor{
 import java.lang.Math;
 public class Vetor{
     public static void main(String[] args){
-        double[] a = {1,2,3,4,5};
+        double[] a = {1,2,3,4,5,6,7,8,9,10};
         double[] b = new double[a.length];
         for (int i = 0; i < a.length; i++){
             b[i] = a[i] * i;
@@ -117,8 +117,8 @@ public class Vetor{
 import java.lang.Math;
 public class Vetor{
     public static void main(String[] args){
-        int[] a = {1,2,3,4,5};
-        int[] b = {6,7,8,9,10}; 
+        int[] a = {1,2,3,4,5,6,7,8,9,10};
+        int[] b = {11,12,13,14,15,16,17,18,19,20}; 
         int[] c = new int[a.length];
         for (int i = 0; i < a.length; i++){
             c[i] = a[i] + b[i];
@@ -145,8 +145,8 @@ public class Vetor{
 import java.lang.Math;
 public class Vetor{
     public static void main(String[] args){
-        int[] a = {1,2,3,4,5, 15};
-        int[] b = {6,7,8,9,10, 11}; 
+        int[] a = {1,2,3,4,5,6,7,8,9,10};
+        int[] b = {11,12,13,14,15,16,17,18,19,20}; 
         int[] c = new int[a.length];
         for (int i = 0; i < a.length; i++){
             c[i] = a[i] - b[i];
@@ -173,8 +173,8 @@ public class Vetor{
 import java.lang.Math;
 public class Vetor{
     public static void main(String[] args){
-        int[] a = {1,2,3,4,5, 15};
-        int[] b = {6,7,8,9,10, 11}; 
+        int[] a = {1,2,3,4,5,6,7,8,9,10;
+        int[] b = {11,12,13,14,15,16,17,18,19,20}; 
         int[] c = new int[a.length];
         for (int i = 0; i < a.length; i++){
             c[i] = a[i] * b[i];
@@ -204,8 +204,8 @@ public class Vetor{
      * @param args
      */
     public static void main(String[] args){
-        float[] a = {1,2,3,4,5, 15};
-        float[] b = {6,7,8,9,10, 11}; 
+        float[] a = {1,2,3,4,5,6,7,8,9,10};
+        float[] b = {11,12,13,14,15,16,17,18,19,20}; 
         float[] c = new float[a.length];
         for (int i = 0; i < a.length; i++){
             c[i] = a[i] / (b[i]);
@@ -232,7 +232,7 @@ public class Vetor{
 import java.lang.Math;
 public class Vetor{
     public static void main(String[] args){
-        double[] a = {1,2,3,4,5};
+        double[] a = {1,2,3,4,5,6,7,8,9,10};
         double[] b = new double[a.length];
         for (int i = 0; i < a.length; i++){
             b[i] = a[i] % 2;
