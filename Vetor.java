@@ -269,3 +269,18 @@ public class Vetor{
 
     }
 }
+
+//12.Criar um vetor A com 10 elementos inteiros. Implementar um programa que defina e escreva a soma de todos os elementos armazenados neste vetor. 
+public class Vetor{
+    public static void main(String[] args){
+        double[] a = {1,2,3,4,5, 6, 7, 8, 9, 10};
+        int soma = 0;
+        for (int i = 0; i < a.length; i++){
+            soma += a[i];
+            
+        }
+        System.out.println(soma);
+
+    }
+}
+
