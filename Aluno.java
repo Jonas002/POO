@@ -1,13 +1,13 @@
-// Aluno
-
+import java.lang.Math;
 public class Aluno extends Pessoa{
     private String matricula;
     private int nota1, nota2;
 
-    public Aluno(String nome, int idade, String telefone, String matricula){
+    public Aluno(String nome, int idade, String telefone, String matricula, int nota1, int nota2){
         super(nome,idade,telefone);
         this.matricula = matricula;
-        this.nota1 = this.nota2 = 0;
+        this.nota1 = nota1; 
+        this.nota2 = nota2;
     }
 
     public String getMatricula(){
@@ -34,4 +34,18 @@ public class Aluno extends Pessoa{
         this.nota2 = nota2;
 
     }  
+
+    public int calculanota() {
+        return (nota1+nota2) / 2;
+    }
+
+    public String toString(){
+        return super.toString() + "\nMatricula: " + matricula + "\nNota1: " + nota1 + "\nNota2: " + nota2 + "\nMédia do aluno: " + calculanota();
+    }
+
+
+  
+
+
+
 }
