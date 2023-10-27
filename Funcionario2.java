@@ -14,4 +14,9 @@ public class Funcionario extends Pessoa{
         this.salario = salario;
     }
 
+    public void seViraNos30() {
+        System.out.println("Se vira nos 30");
+    }
+
+    
 }
