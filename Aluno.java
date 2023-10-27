@@ -1,4 +1,3 @@
-import java.lang.Math;
 public class Aluno extends Pessoa{
     private String matricula;
     private int nota1, nota2;
@@ -37,6 +36,10 @@ public class Aluno extends Pessoa{
 
     public int calculanota() {
         return (nota1+nota2) / 2;
+    }
+
+    public  void seViraNos30(){
+        System.out.println("Se vira nos 30");
     }
 
     public String toString(){
