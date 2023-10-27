@@ -1,4 +1,4 @@
-public class Pessoa {
+public abstract class Pessoa {
     protected String nome;
     int idade;
     protected String telefone;
@@ -33,6 +33,8 @@ public class Pessoa {
     public void setTelefone(String telefone){
         this.telefone = telefone;
     }
+
+    public abstract void seViraNos30();
 
 
     public String toString(){
