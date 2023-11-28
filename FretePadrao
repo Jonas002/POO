@@ -1,0 +1,8 @@
+public class FretePadrao {
+    private float distancia;
+    private float valorPorKm;
+
+   public float FretePadrao(){
+        return distancia * valorPorKm;
+   }     
+}
