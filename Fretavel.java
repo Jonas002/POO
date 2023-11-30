@@ -1,3 +1,3 @@
 public interface Fretavel {
-    public float calcularFrete();
+    public  float calcularFrete();
 }
