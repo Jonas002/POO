@@ -1,8 +1,12 @@
-public class FretePadrao {
-    private float distancia;
-    private float valorPorKm;
+public class FretePadrao extends Frete implements Fretavel{
 
-   public float FretePadrao(){
-        return distancia * valorPorKm;
-   }     
+
+    public FretePadrao(float distancia, float valorPorKm){
+     super(distancia, valorPorKm);
+    }
+
+    public float calcularFrete(){
+          return getValorPorKm() * getDistancia();
+    }
+
 }
